@@ -1,0 +1,24 @@
+{
+  "name": "opencolor-dark",
+  "displayName": "OpenColor Dark",
+  "description": "OpenColor based Dark Theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.79.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "scripts": {
+    "modify": "node scripts/modify.js"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "OpenColor Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/OpenColor Dark-color-theme.json"
+      }
+    ]
+  }
+}
